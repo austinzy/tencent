@@ -316,3 +316,12 @@ POST
 ```
 
 
+# 项目截图
+* 后端API服务  
+![avatar](./images/后端API.png)
+  
+* rqworker服务 可以启动多个  
+![avatar](./images/rqworker.png)  
+  
+* docker container  
+![avatar](./images/docker_container.png)

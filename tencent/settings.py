@@ -135,6 +135,16 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 
+RQ_QUEUES = {
+    'default': {
+        'HOST': '127.0.0.1',
+        'PORT': 5554,
+        'DB': 0,
+        'DEFAULT_TIMEOUT': 3600,
+        'PASSWORD': ''
+    }
+}
+
 USE_QUEUE = False
 
 try:
