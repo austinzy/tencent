@@ -35,7 +35,7 @@
 1. docker安装 [https://docs.docker.com/engine/install/ubuntu/](https://docs.docker.com/engine/install/ubuntu/)  
 2. 预先拉取mysql:5.7和redis:5.0.5镜像  
 ```plain
-docker pull mysql:5.7 && docker pull redis:5.7 
+docker pull mysql:5.7 && docker pull redis:5.0.5 
 ```
 
 ## Python虚拟环境
